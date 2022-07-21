@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>BARBERSHOP SANASINI</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+	</head>
+	<body>
+	
+		<!-- bagian header -->
+		<header>
+			<div class="container">
+				<h1><a href="">Muhammad Didat Wiradhyaksa</a></h1>
+				<ul>
+					<li><a href="#form">Form Transaksi</a></li>
+					<li><a href="#harga">Daftar Harga</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+
+				<!-- menu mobile -->
+				<label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>
+			</div>
+		</header>
+
+		<!-- bagian banner -->
+		<section class="banner">
+			<div class="container">
+				<div class="banner-left">
+										<h2>Hai<br>
+						Perkenalkan Saya <span class="efek-ngetik"></span></h2>
+					<p>Selamat datang di Barbershop Sanasini </p>
+				</div>
+			</div>
+		</section>
+
+		<!-- bagian Transaksi -->
+		<section id="form">
+			<div class="container">
+				<h3>FORM TRANSAKSI</h3>
+	<div align="center"><strong><font size="6" face="Courier New, Courier, mono"></font></strong></div>
+    <form name="form1" method="post" action="proses.php">
+    <table width="58%" border="0" align="center">
+    <tr>
+    <td>Nama Pelanggan</td>
+    <td><input name="nama" type="text" id="nama"></td>
+    </tr>
+    
+    <tr>
+    <td>Alamat</td>
+    <td><input name="alamat" type="text" id="alamat"></td>
+    </tr>
+    
+    <tr>
+    <td>No Tlpn</td>
+    <td><input name="no" type="text" id="no"></td> </tr>
+    </tr>
+
+    
+
+    <tr>
+    <td>Paket Tersedia</td>
+    <td><select name="paket" id="paket">
+    <option>Paket A</option>
+    <option>Paket B</option>
+    <option>Paket C</option>
+    </select></td>
+    </tr>
+
+    
+   
+    <tr>
+    <td>&nbsp;</td>
+    <td><input type="submit" name="Submit" value="Kirim"><input type="reset" name="Submit2" value="Batal">
+    </td>
+    </tr>
+    </table>
+    </form>
+    <div align="center"><strong><a href="proses.php">**LIHAT PESANAN**</a></strong></div>
+    <br></body><br>
+
+   <!-- bagian Daftar Harga-->
+    <section id="harga">
+      <div align ="center" class="container">
+         <h3>Daftar Harga</h3>
+         <div class="col-3">
+            <h4>Paket A</h4>
+            <p>Potong Cuci creambath</p>
+            <p>Dewasa  40.000 </p>
+            <p>Anak-anak  25.000 </p>
+           
+         </div>
+
+         <div class="col-3">
+            <h4>Paket B</h4>
+            <p>Potong Cuci</p>
+            <p>Dewasa = 25.000 </p>
+            <p>Anak-anak = 20.000 </p>
+         </div>
+
+         <div class="col-3">
+            <h4>Paket C</h4>
+            <p>Potong</p>
+            <p>Dewasa = 20.000</p>
+            <p>Anak-anak = 15.000</p>
+         </div>	
+      </div>
+			</div>
+		</section>
+
+		
+
+		<!-- bagian contact -->
+		<section id="contact">
+			<div class="container">
+				<h3>Contact</h3>
+				<div class="col-3">
+					<h4>Alamat</h4>
+					<p>Jl.Mayjend Sutoyo - Palu, Sulawesi Tengah</p>
+				</div>
+
+				<div class="col-3">
+					<h4>Email</h4>
+					<p>mohammaddidat@gmail.com</p>
+				</div>
+
+				<div class="col-3">
+					<h4>Telp/Hp</h4>
+					<p>082187245570</p>
+				</div>	
+			</div>
+		</section>
+		<script src="script.js"></script>
+	</body>
+</html>
